@@ -8,10 +8,10 @@ async function indexLoad(){
             .call()
             .then(result=>{
                 if (result.isExist){
-                    document.getElementById('login_button_but').text="Account";
+                    document.getElementById('login_account_but').text="Account";
                 }
                 else{
-                    document.getElementById('login_button_but').text="Register";
+                    document.getElementById('login_account_but').text="Register";
                 }
             })
             .catch(error=>{
@@ -19,7 +19,7 @@ async function indexLoad(){
             });;
     }
     else{
-        document.getElementById('login_button_but').text="Register";
+        document.getElementById('login_account_but').text="Register";
     }
   }
 

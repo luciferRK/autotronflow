@@ -130,7 +130,7 @@ css list:
 
   border: 0.1em solid #000D47 ;
 
-  transition: background 0.2s ease-in;
+  transition: background 0.2s ease;
 
 }
 
@@ -555,8 +555,6 @@ a.single-about,
 
   background: url(assets/img/Group1.png) no-repeat;
 
-  background: ;
-
   top: -62%;
 
   left: -29%;
@@ -615,7 +613,7 @@ a.single-about,
 
   background: url(assets/img/about-bg.png) no-repeat;
 
-  -webkit-transform: rotate(14deg);
+  -webkit-transform-: rotate(14deg);
 
   z-index: -1;
 
@@ -2901,7 +2899,7 @@ blog page css
 
 .single-blog-image {
 
-  background: ;
+  background: none;
 
   background-position: center !important;
 
@@ -3097,7 +3095,7 @@ a.single-blog-top:hover {
 
   background: #f8f8f8;
 
-  font-size: ;
+  /* font-size: ; */
 
   text-transform: capitalize;
 
