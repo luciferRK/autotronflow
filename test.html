@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--header icon CSS -->
+    <link rel="icon" href="assets/img/fabicon.png">
+    <!-- animations CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- font-awsome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- mobile menu CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <!--css animation-->
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+        <!-- If Tron web isnt installed -->
+        
+        <div class="about-area wow fadeInUp" style="height:30em" id="tronweb_no">
+            <div class="space-70"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>Autotron</h5>
+                        </div>
+                        <div class="space-30"></div>
+                    </div>
+                </div>
+                <div class="space-90"></div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="about-mid-img">
+                            <img src="assets/img/about-left.png" alt="">
+                        </div>
+                    </div>
+                    <div id="no-tron-web" class="col-12 col-md-6 align-self-center">
+                        <div class="heading">
+                            <h5>Hey there,</h5>
+                        </div>
+                        <div id="no-tron-extension" class="about-mid-text">
+                            <h1 style="color:rgb(253, 101, 101)">TronLink has not been installed on your browser</h1>
+                            <div class="space-10"></div>
+                            <p>
+                                You can download TronLink extension for chrome by cicking the following link.
+                                Go to the link, click on "Add to Chrome", open the extension, Login to the extension and then open this page again
+                            </p>
+                        </div>
+                        <div id="tron-web-notloggedin" class="about-mid-text">
+                            <h1 style="color:rgb(253, 101, 101)">Log in on your TronLink Extension</h1>
+                            <div class="space-10"></div>
+                            <p>
+                                Click on TronLink extension and log in with your password and RELOAD this page again
+                            </p>
+                        </div>
+                        <div class="space-30"></div>
+                        <a class="gradient-btn v2 about-btn" style="width:50%" id="tron-extension-link" href="https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec"> <i class="fa fa-send-o"></i>TronLink Extension</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="space-90"></div>
+        </div>
+
+        <div class="welcome-area wow fadeInUp" id="tronweb_yes">
+            <div id="particles-js"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>Autotron</h5>
+                        </div>
+                        <div class="space-10"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 align-self-center">
+                        <div class="welcome-right">
+                            <div class="welcome-text">
+                                 <h1>Register here with Referrer's Address</h1>
+                                <div class="space-30"></div>
+                                <input class="custom_input" id="refer" type="text" placeholder="Referrer's Address">
+                                <div class="space-30"></div>
+                            </div>
+                            <div class="welcome-btn">
+                                <a onclick="registerUser()" class="gradient-btn apps-btn" style="color:#000">Register</a>
+                            </div>
+                            <div class="space-20"></div>
+                            OR
+                            <div class="space-20"></div>
+                            <div class="welcome-btn">
+                                <a onclick="registerUser()" class="gradient-btn apps-btn apps-btn-2" style="margin-left:0;color:#fff">Register without Referrer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="welcome-img">
+                            <img src="assets/img/welcome-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- jquery 2.2.4 js-->
+        <script src="assets/js/jquery-2.2.4.min.js"></script>
+        <!-- popper js-->
+        <script src="assets/js/popper.js"></script>
+        <!-- carousel js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- wow js-->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- bootstrap js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--mobile menu js-->
+        <script src="assets/js/jquery.slicknav.min.js"></script>
+        <!--particle s-->
+        <!-- <script src="assets/js/particles.min.js"></script> -->
+        <!-- main js-->
+        <!-- <script src="assets/js/main.js"></script> -->
+        <!-- peronslized js for tron -->
+
+        <script src="./autotron.js"></script>
+        <script src="./assets/js/TronWeb.js"></script>
+    </body>
+</html>
