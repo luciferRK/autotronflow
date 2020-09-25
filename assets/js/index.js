@@ -4,7 +4,7 @@ async function indexLoad(){
     console.log("Indexload called");
     if(window.tronWeb && window.tronWeb.defaultAddress.base58){
         const contract=await tronWeb.contract().at(contractAddress);
-        contract.MapByAddress_User(userAddress)
+        contract.MapByAddress_User(window.tronWeb.defaultAddress.base58)
             .call()
             .then(result=>{
                 if (result.isExist){
